@@ -1,5 +1,5 @@
 module CUdev [system] {
   header "/usr/include/libudev.h"
-  link "libudev"
+  link "udev"
   export *
 }
