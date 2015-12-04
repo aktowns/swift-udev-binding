@@ -1,0 +1,5 @@
+module CUDev [system] [extern_c] {
+  header "/usr/include/libudev.h",
+  link "udev",
+  export *
+}
